@@ -35,19 +35,16 @@ header .logo {
     text-decoration: none;
 }
 
-header .logo span {
+#spanbina {
+    border-bottom: 3px solid #37d72f;
+}
+
+header .logo #spansath {
     color: #37d72f;
     background-color: black;
     padding: 3px;
     border-radius: 5px;
-}
-
-header .togggle {
-    max-width: 100px;
-}
-
-header .togggle img {
-    max-width: 100%;
+    margin-right: 5px;
 }
 
 .banner {
@@ -135,47 +132,6 @@ header .togggle img {
     border-radius: 50%;
 }
 
-.sci {
-    position: absolute;
-    bottom: 20px;
-    letter-spacing: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .5s;
-    z-index: 20000;
-}
-
-.sci li {
-    list-style: none;
-}
-
-.sci li a {
-    display: block;
-    margin: 15px;
-}
-
-.icons i {
-    font-size: 3em;
-    color: #fff;
-    transition: .2s;
-}
-
-#icons_one i:hover {
-    color: blue;
-    transform: scale(1.5);
-}
-
-#icons_second i:hover {
-    color: rgb(250, 17, 67);
-    transform: scale(1.5);
-}
-
-#icons_three i:hover {
-    color: #00aaee;
-    transform: scale(1.5);
-}
-
 @media(max-width:991px) {
     header {
         padding: 20px 50px;
@@ -192,11 +148,6 @@ header .togggle img {
     }
     .banner .textbox {
         max-width: 100%;
-    }
-    .sci {
-        z-index: 1000;
-        right: 20px;
-        flex-direction: column;
     }
 }
 
@@ -241,51 +192,63 @@ header .togggle img {
 }
 
 #textt {
-    color: #df0808;
+    color: white;
+    text-shadow: 5px 5px 20px #df0808;
     background-color: black;
     font-size: 150px;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media(max-width:1000px) {
-    .container {
-        background-color: rgb(170, 0, 0);
-        border: 2px solid white;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-        width: 75%;
-        border-radius: 25px;
-        text-align: center;
-        font-family: Verdana, Tahoma, sans-serif;
-        text-transform: capitalize;
+@media(max-width:1199px) and (min-width:720px) {
+    .images {
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
     }
-    body {
-        background-size: 100% 100%;
+    .banner .imgbox img {
+        height: 0vh;
+        right: 0px;
+        width: 150%;
     }
 }
 
-#footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: black;
+@media(max-width:719px) {
+    #cir {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .circles {
+        margin-bottom: 10px;
+    }
+    .images {
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+    }
+    #textt {
+        font-size: 80px;
+    }
+    .banner .imgbox img {
+        height: 0vh;
+    }
 }
 
-.credithead {
+#textt {
     text-align: center;
-    font-family: serif;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    background-color: black;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/back.jpg');
 }
 
 
 /* --------------------------------------------------------- Footer ------------------------------------------------------------------*/
 
 footer {
-    background-color: black;
+    background-color: #111;
     width: 100%;
+    padding: 30px;
+    padding-bottom: 0ch;
 }
 
 .sec-1 {
@@ -306,19 +269,19 @@ footer {
 }
 
 .about p {
-    color: rgb(121, 121, 121);
+    color: rgb(182, 176, 176);
 }
 
 .link1 {
     width: 15%;
     padding: 10px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .link2 {
     width: 15%;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .link3 {
@@ -337,7 +300,7 @@ footer {
 }
 
 .link1 ul li a {
-    color: rgb(121, 121, 121);
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -356,8 +319,12 @@ footer {
 }
 
 .link2 ul li a {
-    color: rgb(121, 121, 121);
+    color: whitesmoke;
     text-decoration: none;
+}
+
+.link2 ul li {
+    color: orange;
 }
 
 .link2 ul li a:hover {
@@ -401,7 +368,7 @@ footer {
 
 .sec-2 a {
     border-radius: 10px;
-    color: white;
+    color: gray;
     text-decoration: none;
     padding: 10px;
     font-weight: 900;
