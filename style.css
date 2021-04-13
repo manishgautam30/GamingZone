@@ -7,8 +7,7 @@
 }
 
 body {
-    background-image: url('back.jpg');
-    background-repeat: no-repeat;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/happ.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
 }
@@ -216,38 +215,78 @@ header .togggle img {
     background-color: grey;
 }
 
-.container {
-    background-color: rgb(170, 0, 0);
-    border: 2px solid white;
-    margin: 104px 80px;
-    padding: 75px;
-    width: 33%;
-    border-radius: 25px;
-    text-align: center;
-    font-family: Verdana, Tahoma, sans-serif;
-    text-transform: capitalize;
+#content {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.form-group input {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    display: block;
-    width: 85%;
-    padding: 15px;
-    border: 2px solid black;
-    margin: 11px auto;
-    font-size: 15px;
-    border-radius: 8px;
+#textt {
+    color: #df0808;
+    background-color: black;
+    font-size: 150px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.container h1 {
-    text-align: center;
+#c1 {
+    order: 1;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.container button {
-    display: block;
-    width: 82%;
-    margin: 20px auto;
+#c2 {
+    order: 2;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#c3 {
+    order: 3;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#c4 {
+    order: 4;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width:1000px) {
