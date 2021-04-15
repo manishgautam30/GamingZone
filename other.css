@@ -30,12 +30,11 @@ body {
 }
 
 #imagelogo:hover {
-    transform: skew(30deg);
+    transform: rotate(360deg);
     transition: .5s;
 }
 
 #teamdes {
-    margin-top: 30px;
     background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/bb.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -49,4 +48,88 @@ body {
     background-size: 100% 100%;
     text-shadow: 2px 3px 10px red;
     text-align: center;
+}
+
+
+/* ----------------------------------------------------------------card----------------------------------------------------- */
+
+#mid1 {
+    order: 1;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.circs:hover {
+    transform: rotate(360deg);
+}
+
+#c1 {
+    order: 1;
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-image: url('https://library.kissclipart.com/20181001/faw/kissclipart-transparent-image-of-a-boy-clipart-boy-clip-art-fb030a3a80849eeb.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    margin: 20px;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#c2 {
+    order: 2;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    background-image: url('https://img.pngio.com/-clipart-boy-school-clipart-drawing-for-kids-boy-clipart-boy-clipart-png-820_807.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+#c3 {
+    order: 3;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    background-image: url('https://library.kissclipart.com/20181001/faw/kissclipart-transparent-image-of-a-boy-clipart-boy-clip-art-fb030a3a80849eeb.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+#c4 {
+    order: 4;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    background-image: url('https://img.pngio.com/-clipart-boy-school-clipart-drawing-for-kids-boy-clipart-boy-clipart-png-820_807.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    font-size: x-large;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
 }
