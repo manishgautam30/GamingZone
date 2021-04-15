@@ -59,6 +59,7 @@ video {
 }
 
 .container {
+    z-index: 100000;
     margin-right: 15%;
     width: 360px;
     height: 500px;
