@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: cell;
+    transition: .3s;
+}
+
+body {
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/happ.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#textt {
+    font-size: 330px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    background: transparent;
+    text-shadow: 5px 15px 35px red;
+}
+
+#imagelogo {
+    position: absolute;
+    top: 18%;
+    margin-left: 25%;
+    height: 60%;
+}
+
+#teamtitle {
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    text-shadow: 2px 3px 10px red;
+    text-align: center;
+}
