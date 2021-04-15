@@ -28,10 +28,18 @@ body {
     height: 60%;
 }
 
+#teamdes {
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/bb.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 #teamtitle {
     font-size: 100px;
     color: white;
-    background-color: black;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
     text-shadow: 2px 3px 10px red;
     text-align: center;
 }
