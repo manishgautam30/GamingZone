@@ -22,13 +22,20 @@ body {
 }
 
 #imagelogo {
+    z-index: 100;
     position: absolute;
     top: 18%;
     margin-left: 25%;
     height: 60%;
 }
 
+#imagelogo:hover {
+    transform: skew(30deg);
+    transition: .5s;
+}
+
 #teamdes {
+    margin-top: 30px;
     background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/bb.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
