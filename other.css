@@ -12,7 +12,42 @@ body {
     background-size: 100% 100%;
 }
 
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px;
+    z-index: 100;
+}
+
+header .logo {
+    position: relative;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 5px 5px 20px #df0808;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#spanbina {
+    border-bottom: 3px solid #37d72f;
+}
+
+header .logo #spansath {
+    color: #37d72f;
+    background-color: black;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
 #textt {
+    margin-top: 50px;
     font-size: 330px;
     text-align: center;
     font-weight: 900;
@@ -71,7 +106,7 @@ body {
     height: 300px;
     width: 300px;
     border: 2px solid red;
-    background-image: url('https://library.kissclipart.com/20181001/faw/kissclipart-transparent-image-of-a-boy-clipart-boy-clip-art-fb030a3a80849eeb.png');
+    background-image: url('');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 10%;
@@ -108,7 +143,7 @@ body {
     background-image: url('https://library.kissclipart.com/20181001/faw/kissclipart-transparent-image-of-a-boy-clipart-boy-clip-art-fb030a3a80849eeb.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border-radius: 10%;
+    border-radius: 50%;
     font-size: x-large;
     color: transparent;
     display: flex;
@@ -125,11 +160,80 @@ body {
     background-image: url('https://img.pngio.com/-clipart-boy-school-clipart-drawing-for-kids-boy-clipart-boy-clipart-png-820_807.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border-radius: 50%;
+    border-radius: 10%;
     font-size: x-large;
     color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid red;
+}
+
+#abouthead {
+    font-size: 100px;
+    color: white;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-shadow: 2px 3px 10px red;
+    text-align: center;
+}
+
+#abouttext {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 30px;
+    line-height: 35px;
+}
+
+#privacyhead1 {
+    font-size: 100px;
+    color: white;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-shadow: 2px 3px 10px red;
+    text-align: center;
+}
+
+#privacyhead {
+    font-size: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: orange;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-shadow: 2px 3px 10px red;
+    text-align: left;
+}
+
+#privacytext {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 30px;
+    line-height: 35px;
+}
+
+#des {
+    color: orange;
+    font-family: sans-serif;
+    font-style: oblique;
+    text-align: justify;
+    padding: 30px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    width: 70%;
+}
+
+#des>h4>span {
+    font-size: 25px;
+    font-style: normal;
 }
