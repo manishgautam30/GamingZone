@@ -1,466 +1,591 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    cursor: cell;
-    transition: .3s;
-}
-
-body {
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/happ.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 10px;
-    z-index: 100;
-}
-
-header .logo {
-    position: relative;
-    font-size: 2em;
-    color: #fff;
-    text-shadow: 5px 5px 20px #df0808;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-
-#spanbina {
-    border-bottom: 3px solid #37d72f;
-}
-
-header .logo #spansath {
-    color: #37d72f;
-    background-color: black;
-    padding: 3px;
-    border-radius: 5px;
-    margin-right: 5px;
-}
-
-#textt {
-    margin-top: 50px;
-    font-size: 330px;
-    text-align: center;
-    font-weight: 900;
-    color: black;
-    background: transparent;
-    text-shadow: 5px 15px 35px red;
-}
-
-#imagelogo {
-    z-index: 100;
-    position: absolute;
-    top: 18%;
-    margin-left: 25%;
-    height: 60%;
-}
-
-#imagelogo:hover {
-    transform: rotate(360deg);
-    transition: .5s;
-}
-
-#teamdes {
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/bb.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-#teamtitle {
-    font-size: 100px;
-    color: white;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    text-shadow: 2px 3px 10px red;
-    text-align: center;
-}
-
-
-/* ----------------------------------------------------------------card----------------------------------------------------- */
-
-#mid1 {
-    order: 1;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15px;
-}
-
-.circs:hover {
-    transform: rotate(360deg);
-}
-
-#c1 {
-    order: 1;
-    height: 300px;
-    width: 300px;
-    border: 2px solid red;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/gautam.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    margin: 20px;
-    font-size: x-large;
-    color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#c2 {
-    order: 2;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/tiwari.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 50%;
-    font-size: x-large;
-    color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid red;
-}
-
-#c3 {
-    order: 3;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/jatin.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 50%;
-    font-size: x-large;
-    color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid red;
-}
-
-#c4 {
-    order: 4;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/rahul.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    font-size: x-large;
-    color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid red;
-}
-
-#abouthead {
-    font-size: 100px;
-    color: white;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    text-shadow: 2px 3px 10px red;
-    text-align: center;
-}
-
-#abouttext {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    padding: 30px;
-    line-height: 35px;
-}
-
-#privacyhead1 {
-    font-size: 100px;
-    color: white;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    text-shadow: 2px 3px 10px red;
-    text-align: center;
-}
-
-#privacyhead {
-    font-size: 30px;
-    display: inline;
-    padding: 5px;
-    border-radius: 5px;
-    margin-left: 20px;
-    color: orange;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    text-shadow: 2px 3px 10px red;
-    text-align: left;
-}
-
-#privacytext {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    padding: 30px;
-    line-height: 35px;
-}
-
-#des {
-    color: orange;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #111;
-}
-
-#des>h3>span {
-    font-size: 25px;
-    font-style: normal;
-}
-
-footer {
-    background-color: #111;
-    width: 100%;
-}
-
-.sec-1 {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    clear: both;
-}
-
-.about {
-    width: 40%;
-}
-
-.about h2 {
-    font-size: 24px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.about p {
-    color: rgb(182, 176, 176);
-}
-
-.link1 {
-    width: 15%;
-    padding: 10px;
-    margin-left: 80px;
-}
-
-.link2 {
-    width: 15%;
-    padding: 10px;
-    margin-left: 50px;
-}
-
-.link3 {
-    width: 15%;
-    padding: 10px;
-}
-
-.link1 h2 {
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.link1 ul {
-    list-style: none;
-}
-
-.link1 ul li a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.link1 ul li a:hover {
-    color: orange;
-}
-
-.link2 h2 {
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.link2 ul {
-    list-style: none;
-}
-
-.link2 ul li a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.link2 ul li {
-    color: orange;
-}
-
-.link2 ul li a:hover {
-    color: orange;
-}
-
-.link3 h2 {
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.link3 ul {
-    list-style: none;
-}
-
-.link3 ul li {
-    color: rgb(121, 121, 121);
-    text-decoration: none;
-}
-
-.link3 ul li a {
-    color: rgb(121, 121, 121);
-    text-decoration: none;
-}
-
-.link3 ul li a:hover {
-    color: orange;
-}
-
-.sec-2 {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sec-2 h2 {
-    color: white;
-}
-
-.sec-2 a {
-    border-radius: 10px;
-    color: gray;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 900;
-}
-
-.sec-2 a:hover {
-    color: orange;
-}
-
-.sec-3 {
-    display: flex;
-    justify-content: center;
-}
-
-.sec-3 li {
-    float: left;
-    list-style: none;
-    margin: 20px;
-    margin-bottom: 0;
-}
-
-.sec-3 a {
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    height: 40px;
-    font-size: 24px;
-    width: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
-.sec-3 a:hover {
-    background-color: #37d72f;
-}
-
-.sec-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sec-4 h2 {
-    margin: 30px;
-    color: white;
-    font-size: 15px;
-}
-
-.sec-4 a {
-    color: white;
-    text-decoration: none;
-}
-
-.sec-4 a:hover {
-    color: orange;
-}
-
-@media(max-width: 1024px) {
-    .sec-1 {
-        flex-wrap: wrap;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        cursor: cell;
+        transition: .3s;
     }
-    .about {
+    
+    body {
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/happ.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 10px;
+        z-index: 100;
+    }
+    
+    header .logo {
+        position: relative;
+        font-size: 2em;
+        color: #fff;
+        text-shadow: 5px 5px 20px #df0808;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+    
+    #spanbina {
+        border-bottom: 3px solid #37d72f;
+    }
+    
+    header .logo #spansath {
+        color: #37d72f;
+        background-color: black;
+        padding: 3px;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+    
+    #textt {
+        margin-top: 50px;
+        font-size: 250px;
+        text-align: center;
+        font-weight: 900;
+        color: black;
+        background: transparent;
+        text-transform: uppercase;
+        text-shadow: 5px 15px 35px red;
+    }
+    
+    #imagelogo {
+        z-index: 100;
+        position: absolute;
+        top: 13%;
+        margin-left: 25%;
+        height: 60%;
+    }
+    
+    #imagelogo:hover {
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+    
+    #teamdes {
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/bb.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+    #teamtitle {
+        font-size: 100px;
+        color: white;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-shadow: 2px 3px 10px red;
+        text-align: center;
+    }
+    
+    #c1 {
+        order: 1;
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+        border: 2px solid red;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/gautam.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 10%;
+        font-size: x-large;
+        color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #c2 {
+        order: 2;
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/tiwari.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        font-size: x-large;
+        color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid red;
+    }
+    
+    #c3 {
+        order: 3;
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/jatin.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 50%;
+        font-size: x-large;
+        color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid red;
+    }
+    
+    #c4 {
+        order: 4;
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/rahul.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 10%;
+        font-size: x-large;
+        color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid red;
+    }
+    /* ----------------------------------------------------------------card----------------------------------------------------- */
+    
+    #mid1 {
+        order: 1;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    
+    .circs:hover {
+        transform: rotate(360deg);
+    }
+    
+    #abouthead {
+        font-size: 100px;
+        color: white;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-shadow: 2px 3px 10px red;
+        text-align: center;
+    }
+    
+    #abouttext {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        padding: 30px;
+        line-height: 35px;
+    }
+    
+    #privacyhead1 {
+        font-size: 100px;
+        color: white;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/GamingZone/main/media/av.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-shadow: 2px 3px 10px red;
+        text-align: center;
+    }
+    
+    #privacyhead {
+        font-size: 30px;
+        display: inline;
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 20px;
+        color: orange;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-shadow: 2px 3px 10px red;
+        text-align: left;
+    }
+    
+    #privacytext {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        padding: 30px;
+        line-height: 35px;
+    }
+    
+    #des {
+        color: orange;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #111;
+    }
+    
+    #des>h3>span {
+        font-size: 25px;
+        font-style: normal;
+    }
+    
+    footer {
+        background-color: #111;
+        width: 100%;
+    }
+    
+    .sec-1 {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        clear: both;
+    }
+    
+    .about {
+        width: 40%;
+    }
+    
+    .about h2 {
+        font-size: 24px;
+        color: white;
         margin-bottom: 20px;
     }
-    .link1,
-    .link2,
+    
+    .about p {
+        color: rgb(182, 176, 176);
+    }
+    
+    .link1 {
+        width: 15%;
+        padding: 10px;
+        margin-left: 80px;
+    }
+    
+    .link2 {
+        width: 15%;
+        padding: 10px;
+        margin-left: 50px;
+    }
+    
     .link3 {
-        width: 20%;
-        padding: 20px;
-        margin: 40px;
+        width: 15%;
+        padding: 10px;
     }
-}
-
-@media(max-width: 768px) {
-    .sec-1 {
-        flex-direction: column;
-    }
-    .about {
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+    
+    .link1 h2 {
+        color: white;
+        text-transform: uppercase;
         margin-bottom: 20px;
     }
-    .link1,
-    .link2,
-    .link3 {
-        width: 20%;
-        padding: 20px;
-        margin: 40px auto;
-        margin-left: 40px;
+    
+    .link1 ul {
+        list-style: none;
     }
+    
+    .link1 ul li a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    .link1 ul li a:hover {
+        color: orange;
+    }
+    
+    .link2 h2 {
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    .link2 ul {
+        list-style: none;
+    }
+    
+    .link2 ul li a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+    .link2 ul li {
+        color: orange;
+    }
+    
+    .link2 ul li a:hover {
+        color: orange;
+    }
+    
+    .link3 h2 {
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    .link3 ul {
+        list-style: none;
+    }
+    
+    .link3 ul li {
+        color: rgb(121, 121, 121);
+        text-decoration: none;
+    }
+    
+    .link3 ul li a {
+        color: rgb(121, 121, 121);
+        text-decoration: none;
+    }
+    
+    .link3 ul li a:hover {
+        color: orange;
+    }
+    
+    .sec-2 {
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .sec-2 h2 {
-        font-size: 20px;
+        color: white;
     }
+    
+    .sec-2 a {
+        border-radius: 10px;
+        color: gray;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: 900;
+    }
+    
+    .sec-2 a:hover {
+        color: orange;
+    }
+    
+    .sec-3 {
+        display: flex;
+        justify-content: center;
+    }
+    
     .sec-3 li {
-        margin: 8px;
+        float: left;
+        list-style: none;
+        margin: 20px;
+        margin-bottom: 0;
     }
+    
+    .sec-3 a {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        height: 40px;
+        font-size: 24px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sec-3 a:hover {
+        background-color: #37d72f;
+    }
+    
+    .sec-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .sec-4 h2 {
-        margin: 22px;
+        margin: 30px;
+        color: white;
         font-size: 15px;
     }
-}
+    
+    .sec-4 a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .sec-4 a:hover {
+        color: orange;
+    }
+    
+    @media(max-width: 1024px) {
+        .sec-1 {
+            flex-wrap: wrap;
+        }
+        .about {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 20px;
+        }
+        .link1,
+        .link2,
+        .link3 {
+            width: 20%;
+            padding: 20px;
+            margin: 40px;
+        }
+    }
+    
+    @media(max-width: 768px) {
+        .sec-1 {
+            flex-direction: column;
+        }
+        .about {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 20px;
+        }
+        .link1,
+        .link2,
+        .link3 {
+            width: 20%;
+            padding: 20px;
+            margin: 40px auto;
+            margin-left: 40px;
+        }
+        .sec-2 h2 {
+            font-size: 20px;
+        }
+        .sec-3 li {
+            margin: 8px;
+        }
+        .sec-4 h2 {
+            margin: 22px;
+            font-size: 15px;
+        }
+    }
+    
+    @media(max-width:1100px) and (min-width:860px) {
+        #mid1 {
+            flex-direction: row;
+        }
+        #textt {
+            margin-top: 50px;
+            font-size: 180px;
+            text-transform: uppercase;
+        }
+        #imagelogo {
+            z-index: 100;
+            position: absolute;
+            top: 10%;
+            margin-left: 25%;
+            height: 40%;
+        }
+        header .logo {
+            font-size: 1em;
+        }
+        #c1 {
+            height: 200px;
+            width: 200px;
+        }
+        #c2 {
+            height: 200px;
+            width: 200px;
+        }
+        #c3 {
+            height: 200px;
+            width: 200px;
+        }
+        #c4 {
+            height: 200px;
+            width: 200px;
+        }
+    }
+    
+    @media(max-width:859px) and (min-width:600px) {
+        #mid1 {
+            flex-direction: row;
+        }
+        #textt {
+            margin-top: 50px;
+            font-size: 130px;
+            text-transform: uppercase;
+        }
+        header .logo {
+            font-size: 1em;
+        }
+        #imagelogo {
+            z-index: 100;
+            position: absolute;
+            top: 10%;
+            margin-left: 25%;
+            height: 20%;
+        }
+        #c1 {
+            height: 130px;
+            width: 130px;
+        }
+        #c2 {
+            height: 130px;
+            width: 130px;
+        }
+        #c3 {
+            height: 130px;
+            width: 130px;
+        }
+        #c4 {
+            height: 130px;
+            width: 130px;
+        }
+    }
+    
+    @media(max-width:599px) {
+        #mid1 {
+            flex-direction: column;
+        }
+        #textt {
+            margin-top: 70px;
+            font-size: 80px;
+            text-transform: capitalize;
+        }
+        header .logo {
+            font-size: 1em;
+        }
+        #imagelogo {
+            top: 9%;
+            height: 15%;
+        }
+        #c1 {
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            width: 250px;
+        }
+        #c2 {
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            width: 250px;
+        }
+        #c3 {
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            width: 250px;
+        }
+        #c4 {
+            margin-left: auto;
+            margin-right: auto;
+            height: 250px;
+            width: 250px;
+        }
+        #teamtitle,
+        #abouthead,
+        #privacyhead1 {
+            font-size: 70px;
+        }
+        #privacytext,
+        #abouttext {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
