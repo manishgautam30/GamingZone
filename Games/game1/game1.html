@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Jump Game</title>
-    <script src="./game1.css"></script>
+    <link rel="stylesheet" href="./game1.css">
 </head>
 
 <body>
     <div class="game">
-        <div id="character"></div>
-        <div id="block"></div>
+        <img src="./images/nail.PNG" id="character" alt="">
+        <img src="./images/rat.jpg" id="block">
+        </img>
     </div>
-    <p>Score: <span id="scoreSpan"></span></p>
+    <p>High Score: <span id="scoreSpan"></span></p>
+
+    <h2>Rules for the Game:</h2>
+    <p id="happ">1. The Player must Click the left mouse button in order to pull the nail up. <br> 2. As the nail is pulled up the score counts and hence that will be counted as the high score. <br> 3.If a player fails to pull up the nail thenrat clashes with the
+        nail and the <br> "GAME IS OVER".
+    </p>
 </body>
+<script src="./game1.js"></script>
 
 </html>
