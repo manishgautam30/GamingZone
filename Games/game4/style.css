@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#he {
+    width: 100vw;
+    height: 60px;
+    background: #00cc99;
+}
+
+#he span {
+    color: white;
+    margin-left: 100px;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fro {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+}
+
+#midf {
+    width: 10px;
+    height: 200px;
+    padding: 50px 110px;
+}
+
+#foof {
+    width: 100vw;
+    height: 200px;
+}
+
+#foof h1 {
+    font-size: 45px;
+    color: grey;
+    margin-left: 60px;
+    margin-top: -45px;
+}
+
+#start {
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 50px;
+    width: 140px;
+    background: #009973;
+    outline: none;
+    font-size: 30px;
+    color: white;
+}
+
+#newdiv {
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+    height: 90vh;
+    background: #fff;
+}
+
+.fa-home {
+    position: absolute;
+    color: white;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 18px;
+}
+
+#newm {
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#gb {
+    position: absolute;
+    width: 80%;
+    height: 100px;
+    padding-left: 50px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.gbo {
+    height: 30px;
+    width: 30px;
+    border-bottom: 5px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+#ent {
+    width: 210px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ff0066;
+    outline: none;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+#bt {
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    background: #00cc99;
+}
+
+#entry {
+    position: absolute;
+    margin-top: 20px;
+}
+
+#winRar,
+#lostRar {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    margin-top: 60px;
+    background: #fff;
+}
+
+.winpara,
+.lostpara {
+    font-size: 40px;
+    color: #ff9900;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#winword,
+#lostword {
+    text-align: center;
+    font-size: 28px;
+    color: #ff9900;
+    font-weight: bold;
+}
+
+#lostimg {
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 170px;
+    width: 190px;
+    opacity: 0.8;
+    transform: scale(1.3);
+}
+
+#lm {
+    width: 100%;
+    height: 300px;
+}
+
+#yt {
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    background: #ff9900;
+}
+
+#yt a {
+    color: white;
+    font-size: 22px;
+}
